@@ -1,0 +1,6 @@
+framework module Pods_CodeSprint_CodeSprintUITests {
+  umbrella header "Pods-CodeSprint-CodeSprintUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

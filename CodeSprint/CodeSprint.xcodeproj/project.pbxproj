@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01843F59C16922E1FB029160 /* Pods_CodeSprint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2732A31188701E1299389B7 /* Pods_CodeSprint.framework */; };
+		1CE36A1269C0D230E55F119A /* Pods_CodeSprint_CodeSprintUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3A1C82F250BD74B9D8FAAFD /* Pods_CodeSprint_CodeSprintUITests.framework */; };
+		D178C1A3BB596DAEF0C8ECA9 /* Pods_CodeSprintTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33052C6DA2FEC00B7C7D6385 /* Pods_CodeSprintTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		088E70D92D345A8500782912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088E70BA2D345A8200782912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088E70C12D345A8200782912;
+			remoteInfo = CodeSprint;
+		};
+		088E70E32D345A8500782912 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 088E70BA2D345A8200782912 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 088E70C12D345A8200782912;
+			remoteInfo = CodeSprint;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		088E70C22D345A8200782912 /* CodeSprint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodeSprint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		088E70D82D345A8500782912 /* CodeSprintTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSprintTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		088E70E22D345A8500782912 /* CodeSprintUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CodeSprintUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		19E730DD5F2DDB6A2D5C8E81 /* Pods-CodeSprintTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprintTests.debug.xcconfig"; path = "Target Support Files/Pods-CodeSprintTests/Pods-CodeSprintTests.debug.xcconfig"; sourceTree = "<group>"; };
+		285D39C10D30230A0C87A9A0 /* Pods-CodeSprint-CodeSprintUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprint-CodeSprintUITests.debug.xcconfig"; path = "Target Support Files/Pods-CodeSprint-CodeSprintUITests/Pods-CodeSprint-CodeSprintUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		33052C6DA2FEC00B7C7D6385 /* Pods_CodeSprintTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeSprintTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		33062D742E70C7BF9AF5C89C /* Pods-CodeSprint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprint.release.xcconfig"; path = "Target Support Files/Pods-CodeSprint/Pods-CodeSprint.release.xcconfig"; sourceTree = "<group>"; };
+		620F31DF34A751E4057D3B00 /* Pods-CodeSprint-CodeSprintUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprint-CodeSprintUITests.release.xcconfig"; path = "Target Support Files/Pods-CodeSprint-CodeSprintUITests/Pods-CodeSprint-CodeSprintUITests.release.xcconfig"; sourceTree = "<group>"; };
+		6FC0C86C9E46D146DCC7D49C /* Pods-CodeSprintTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprintTests.release.xcconfig"; path = "Target Support Files/Pods-CodeSprintTests/Pods-CodeSprintTests.release.xcconfig"; sourceTree = "<group>"; };
+		91FA19A8FA9CBA976633BE7F /* Pods-CodeSprint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodeSprint.debug.xcconfig"; path = "Target Support Files/Pods-CodeSprint/Pods-CodeSprint.debug.xcconfig"; sourceTree = "<group>"; };
+		D2732A31188701E1299389B7 /* Pods_CodeSprint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeSprint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3A1C82F250BD74B9D8FAAFD /* Pods_CodeSprint_CodeSprintUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodeSprint_CodeSprintUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		088E70EA2D345A8500782912 /* Exceptions for "CodeSprint" folder in "CodeSprint" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 088E70C12D345A8200782912 /* CodeSprint */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		088E70C42D345A8200782912 /* CodeSprint */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				088E70EA2D345A8500782912 /* Exceptions for "CodeSprint" folder in "CodeSprint" target */,
+			);
+			path = CodeSprint;
+			sourceTree = "<group>";
+		};
+		088E70DB2D345A8500782912 /* CodeSprintTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CodeSprintTests;
+			sourceTree = "<group>";
+		};
+		088E70E52D345A8500782912 /* CodeSprintUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CodeSprintUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		088E70BF2D345A8200782912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01843F59C16922E1FB029160 /* Pods_CodeSprint.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70D52D345A8500782912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D178C1A3BB596DAEF0C8ECA9 /* Pods_CodeSprintTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70DF2D345A8500782912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CE36A1269C0D230E55F119A /* Pods_CodeSprint_CodeSprintUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		088E70B92D345A8200782912 = {
+			isa = PBXGroup;
+			children = (
+				088E70C42D345A8200782912 /* CodeSprint */,
+				088E70DB2D345A8500782912 /* CodeSprintTests */,
+				088E70E52D345A8500782912 /* CodeSprintUITests */,
+				088E70C32D345A8200782912 /* Products */,
+				8D6FFDE9F0AF00F4E5705C5A /* Pods */,
+				0F9EE34B60020DA5E31629BE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		088E70C32D345A8200782912 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				088E70C22D345A8200782912 /* CodeSprint.app */,
+				088E70D82D345A8500782912 /* CodeSprintTests.xctest */,
+				088E70E22D345A8500782912 /* CodeSprintUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F9EE34B60020DA5E31629BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2732A31188701E1299389B7 /* Pods_CodeSprint.framework */,
+				D3A1C82F250BD74B9D8FAAFD /* Pods_CodeSprint_CodeSprintUITests.framework */,
+				33052C6DA2FEC00B7C7D6385 /* Pods_CodeSprintTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D6FFDE9F0AF00F4E5705C5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91FA19A8FA9CBA976633BE7F /* Pods-CodeSprint.debug.xcconfig */,
+				33062D742E70C7BF9AF5C89C /* Pods-CodeSprint.release.xcconfig */,
+				285D39C10D30230A0C87A9A0 /* Pods-CodeSprint-CodeSprintUITests.debug.xcconfig */,
+				620F31DF34A751E4057D3B00 /* Pods-CodeSprint-CodeSprintUITests.release.xcconfig */,
+				19E730DD5F2DDB6A2D5C8E81 /* Pods-CodeSprintTests.debug.xcconfig */,
+				6FC0C86C9E46D146DCC7D49C /* Pods-CodeSprintTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		088E70C12D345A8200782912 /* CodeSprint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088E70EB2D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprint" */;
+			buildPhases = (
+				9B4F4BDF6E434DA11F812524 /* [CP] Check Pods Manifest.lock */,
+				088E70BE2D345A8200782912 /* Sources */,
+				088E70BF2D345A8200782912 /* Frameworks */,
+				088E70C02D345A8200782912 /* Resources */,
+				021BE4BAE2F105BF8BB8DACE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				088E70C42D345A8200782912 /* CodeSprint */,
+			);
+			name = CodeSprint;
+			productName = CodeSprint;
+			productReference = 088E70C22D345A8200782912 /* CodeSprint.app */;
+			productType = "com.apple.product-type.application";
+		};
+		088E70D72D345A8500782912 /* CodeSprintTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088E70F02D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprintTests" */;
+			buildPhases = (
+				62962CF684C6F036AC569E10 /* [CP] Check Pods Manifest.lock */,
+				088E70D42D345A8500782912 /* Sources */,
+				088E70D52D345A8500782912 /* Frameworks */,
+				088E70D62D345A8500782912 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088E70DA2D345A8500782912 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				088E70DB2D345A8500782912 /* CodeSprintTests */,
+			);
+			name = CodeSprintTests;
+			productName = CodeSprintTests;
+			productReference = 088E70D82D345A8500782912 /* CodeSprintTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		088E70E12D345A8500782912 /* CodeSprintUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 088E70F32D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprintUITests" */;
+			buildPhases = (
+				35B77526C74D976F106F565E /* [CP] Check Pods Manifest.lock */,
+				088E70DE2D345A8500782912 /* Sources */,
+				088E70DF2D345A8500782912 /* Frameworks */,
+				088E70E02D345A8500782912 /* Resources */,
+				3132ED845EDAB2459BEE6661 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				088E70E42D345A8500782912 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				088E70E52D345A8500782912 /* CodeSprintUITests */,
+			);
+			name = CodeSprintUITests;
+			productName = CodeSprintUITests;
+			productReference = 088E70E22D345A8500782912 /* CodeSprintUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		088E70BA2D345A8200782912 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					088E70C12D345A8200782912 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					088E70D72D345A8500782912 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 088E70C12D345A8200782912;
+					};
+					088E70E12D345A8500782912 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 088E70C12D345A8200782912;
+					};
+				};
+			};
+			buildConfigurationList = 088E70BD2D345A8200782912 /* Build configuration list for PBXProject "CodeSprint" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 088E70B92D345A8200782912;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 088E70C32D345A8200782912 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				088E70C12D345A8200782912 /* CodeSprint */,
+				088E70D72D345A8500782912 /* CodeSprintTests */,
+				088E70E12D345A8500782912 /* CodeSprintUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		088E70C02D345A8200782912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70D62D345A8500782912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70E02D345A8500782912 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		021BE4BAE2F105BF8BB8DACE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeSprint/Pods-CodeSprint-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeSprint/Pods-CodeSprint-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeSprint/Pods-CodeSprint-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3132ED845EDAB2459BEE6661 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeSprint-CodeSprintUITests/Pods-CodeSprint-CodeSprintUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodeSprint-CodeSprintUITests/Pods-CodeSprint-CodeSprintUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodeSprint-CodeSprintUITests/Pods-CodeSprint-CodeSprintUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		35B77526C74D976F106F565E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeSprint-CodeSprintUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62962CF684C6F036AC569E10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeSprintTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B4F4BDF6E434DA11F812524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodeSprint-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		088E70BE2D345A8200782912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70D42D345A8500782912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		088E70DE2D345A8500782912 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		088E70DA2D345A8500782912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088E70C12D345A8200782912 /* CodeSprint */;
+			targetProxy = 088E70D92D345A8500782912 /* PBXContainerItemProxy */;
+		};
+		088E70E42D345A8500782912 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 088E70C12D345A8200782912 /* CodeSprint */;
+			targetProxy = 088E70E32D345A8500782912 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		088E70EC2D345A8500782912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FA19A8FA9CBA976633BE7F /* Pods-CodeSprint.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeSprint/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		088E70ED2D345A8500782912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33062D742E70C7BF9AF5C89C /* Pods-CodeSprint.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodeSprint/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		088E70EE2D345A8500782912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		088E70EF2D345A8500782912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		088E70F12D345A8500782912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E730DD5F2DDB6A2D5C8E81 /* Pods-CodeSprintTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSprint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeSprint";
+			};
+			name = Debug;
+		};
+		088E70F22D345A8500782912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FC0C86C9E46D146DCC7D49C /* Pods-CodeSprintTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprintTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CodeSprint.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CodeSprint";
+			};
+			name = Release;
+		};
+		088E70F42D345A8500782912 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285D39C10D30230A0C87A9A0 /* Pods-CodeSprint-CodeSprintUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeSprint;
+			};
+			name = Debug;
+		};
+		088E70F52D345A8500782912 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 620F31DF34A751E4057D3B00 /* Pods-CodeSprint-CodeSprintUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RN9X3KHD2H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = reizev.CodeSprintUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CodeSprint;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		088E70BD2D345A8200782912 /* Build configuration list for PBXProject "CodeSprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088E70EE2D345A8500782912 /* Debug */,
+				088E70EF2D345A8500782912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088E70EB2D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088E70EC2D345A8500782912 /* Debug */,
+				088E70ED2D345A8500782912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088E70F02D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprintTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088E70F12D345A8500782912 /* Debug */,
+				088E70F22D345A8500782912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		088E70F32D345A8500782912 /* Build configuration list for PBXNativeTarget "CodeSprintUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				088E70F42D345A8500782912 /* Debug */,
+				088E70F52D345A8500782912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 088E70BA2D345A8200782912 /* Project object */;
+}

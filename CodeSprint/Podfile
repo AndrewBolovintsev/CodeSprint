@@ -1,0 +1,21 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'CodeSprint' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for CodeSprint
+  pod 'FirebaseAuth'
+  pod 'FirebaseFirestore'
+
+  target 'CodeSprintTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'CodeSprintUITests' do
+    # Pods for testing
+  end
+
+end
